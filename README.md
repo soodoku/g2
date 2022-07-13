@@ -1,7 +1,9 @@
 ## G2 software
 
-Click on [see here](g2_screenshot1.png) and iterate over all the categories and subcategories. For each subcategory page, iterate over all software. Download the HTMLs and parse the basic data. 
+Scrape data from https://www.g2.com/
 
-* We don't need to get all the data. Ok to just get software name, url, description, etc.
+1. Write a parser: See [here](g2_screenshot1.png) and iterate over all the categories and subcategories. For each subcategory page, iterate over all software. Download all the HTMLs.
+
+2. Write a separate script to parse the data---overview, website, product description, seller, ownership, company website, hq location, total revenue, twitter, ...
 
 
